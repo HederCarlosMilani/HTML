@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Heder, Santhiago">
+    <title>HTML</title>
+</head>
+<body>
+    <div>
+        <h1>Permuta 01 - Tags HTML</h1>
+        <h2>Desenvolvimento de aplicações para Web</h2>
+        <br>
+        <h3>
+            Academicos: <br>
+                Heder Carlos Milani <br>
+                Santhiago
+        </h3>
+    </div>
+    <br>
+    <br>
+    <div>
+        <h2>Styles and Semantics</h2>
+        <div>
+            <h3>&lt;style&gt;</h3>
+            Este elemento contém informações de estilo para um documento ou uma parte do documento. <br>
+            Possui os seguintes atributos possiveis: 
+            <table border="1">
+                <tr>
+                    <td>type</td>
+                    <td>Este atributo define a linguagem de estilo como um tipo MIME (charset não deve ser especificado).</td>
+                </tr>
+                <tr>
+                    <td>media</td>
+                    <td>Qual mídia deve aplicar-se a este estilo. Deve ser uma consulta de mídia.</td>
+                </tr>
+                <tr>
+                    <td>escoped</td>
+                    <td>Se este atributo está presente, então o estilo aplica-se apenas ao seu elemento pai. Se está ausente, o estilo aplica-se ao documento inteiro.</td>
+                </tr>
+                <tr>
+                    <td>title</td>
+                    <td>Especifica os conjuntos de folhas de estilo alternativa.</td>
+                </tr>
+                <tr>
+                    <td>disable</td>
+                    <td>Se definido, desativa (não se aplica) às regras de estilo para a Document que são especificadas no elemento.</td>
+                </tr>
+            </table>
+            <h4>Exemplo: </h4>
+            <style scoped>
+                p {
+                    color: red;
+                }
+            </style>
+            <p>Hello Word!!!</p>
+        </div>
+        <br>
+        <div>
+            <h3>&lt;div&gt;</h3>
+            Este elemento é um container genérico para conteúdo de fluxo, que de certa forma não representa nada. Ele pode ser utilizado para agrupar elementos para fins de estilos (usando class ou id), ou porque eles compartilham valores de atributos, como lang. <br>
+            Possui os atributos globais.
+            <h4>Exemplo:</h4>
+            <div>Hello Word !!!</div>
+        </div>
+        <br>
+        <div>
+            <h3>&lt;span&gt;</h3>
+            Este elemento é um container genérico para conteúdo de fluxo, que de certa forma não representa nada. Ele pode ser utilizado para agrupar elementos para fins de estilos (usando class ou id), ou porque eles compartilham valores de atributos, como lang. <br>
+            Ele deve ser usado somente quando nenhum outro elemento semântico for apropriado. <br>
+            Possui os atributos globais.
+            <h4>Exemplo:</h4>
+            <style scoped>
+                span {
+                    font-style: italic;
+                }
+            </style>
+            <span>Hello Word !!!</span>
+        </div>
+        <br>
+        <div>
+            <h3>&lt;header&gt;</h3>
+            Este elemento representa um grupo de suporte introdutório ou navegacional. Pode conter alguns elementos de cabeçalho mas também outros elementos como um logo, seções de cabeçalho, formulário de pesquisa, e outros. <br>
+            Possui apenas os atributos globais.
+            <h4>Exemplo: </h4>
+            <header>
+                Hello Word!!!
+            </header>
+        </div>
+        <br>
+        <div>
+            <h3>&lt;footer&gt;</h3>
+            Este elemento representa um rodapé para o seu sectioning content (conteúdo de seção) mais próximo ou sectioning root elemento (parente mais próximo). Normalmente um rodapé contém informações sobre o autor da seção de dados, direitos autorais ou links para documentos relacionados. <br>
+            Possui apenas os atributos globais.
+            Implementa a interface HTMLElement.
+            <h4>Exemplo: </h4>
+            <footer>
+                Hello Word!!!
+            </footer>
+        </div>
+        <br>
+        <div>
+            
+        </div>
+    </div>
+</body>
+</html>
